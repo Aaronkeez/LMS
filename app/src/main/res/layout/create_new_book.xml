@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/white"
+    tools:context=".CreateNewBook">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="5dp"
+            app:cardCornerRadius="5dp"
+            android:layout_margin="14dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bookCover"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:src="@drawable/upload"
+                    android:clickable="true"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="Click Upload Image To Select Image"
+                    android:gravity="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textSize="16dip"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:labelFor="@id/bookTitle"
+                    app:helperText="Book titles normally have less than 3 words">
+
+                    <EditText android:id="@+id/bookTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/colorPrimary"
+                        android:hint="Book Title" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:labelFor="@id/bookTitle"
+                    app:helperText="Tell users briefly about this book">
+
+                    <EditText android:id="@+id/Description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/colorPrimary"
+                        android:hint="Book Description" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnCreateBook"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:padding="12dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:text="Create Book"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+</ScrollView>

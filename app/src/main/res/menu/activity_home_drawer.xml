@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_authors"
+            android:icon="@drawable/ic_group"
+            android:title="Authors" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_categories"
+            android:title="Book Categories" />
+        <item
+            android:id="@+id/nav_bookRequests"
+            android:icon="@drawable/ic_notifications"
+            android:title="Pending Book Requests" />
+        <item
+            android:id="@+id/nav_receiveReturn"
+            android:icon="@drawable/ic_assignment_returned"
+            android:title="Receive Book Return" />
+        <item
+            android:id="@+id/nav_allOverdues"
+            android:icon="@drawable/ic_overdue"
+            android:title="Over Dues" />
+    </group>
+
+    <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+    </group>
+</menu>

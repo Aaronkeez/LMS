@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"
+            android:text="Please Confirm To Proceed"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/dialogBookTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/grey"
+            android:layout_margin="15dp"
+            android:text="Book Title"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <EditText
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dialog_requestId"
+            android:hint="Book Request Id"/>
+
+        <Button
+            android:id="@+id/dialog_btnConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="Confirm"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

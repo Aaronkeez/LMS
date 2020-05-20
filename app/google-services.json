@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "625264127962",
+    "firebase_url": "https://library-management-syste-f598a.firebaseio.com",
+    "project_id": "library-management-syste-f598a",
+    "storage_bucket": "library-management-syste-f598a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625264127962:android:31adc9b1cfaaf950e55ae3",
+        "android_client_info": {
+          "package_name": "com.thetravella.librarymanagementsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625264127962-to2ga48im3sa875onumq1k2pk9blvar9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thetravella.librarymanagementsystem",
+            "certificate_hash": "ab6a5822b50b765b842a2b7b9ae3d395ca945de4"
+          }
+        },
+        {
+          "client_id": "625264127962-eldfadprromgiju9t6323l1tp6s8tqan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUbAyb9o1r-dPnYiAF4Pm_6QfBZOzu5P8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625264127962-eldfadprromgiju9t6323l1tp6s8tqan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
